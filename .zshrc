@@ -75,10 +75,12 @@ alias fix="sudo apt --fix-broken install"
 # helpful in destroying brain cells.
 alias install="sudo dpkg -i"
 #to run the snap version of vlc
-alias vlc="snap run vlc"
+#alias vlc="snap run vlc"
 #list of avaliable kernels
 alias kernels="sudo dpkg --list | egrep -i --color 'linux-image|linux-headers'"
 
 export PATH=${PATH}:/home/$USER/platform-tools
 ######
 alias telegram="snap run telegram-desktop"
+###
+alias ppa="cd /etc/apt/sources.list.d ; ls"
